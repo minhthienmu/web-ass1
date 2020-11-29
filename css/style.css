@@ -38,11 +38,11 @@ html, body {
 }
 
 
-.row.padding h2 {
+.row.padding h2, .row.padding h3, .row.padding h4 {
 	font-weight: 700;
     font-style: normal;
     text-rendering: auto;
-    color: #03004D;
+	color: #03004D;
 }
 
 .row.padding p {
@@ -84,6 +84,24 @@ html, body {
 	color: pink;
 }
 
+.service.section {
+	background-color: #9CDAA4;
+}
+
+.card-title {
+	color: #39B54A;
+    margin-bottom: 1rem;
+	margin-top: 2rem;
+	margin-left: 1rem;
+	font-weight: bold;
+}
+
+.card-text {
+	margin-left: 1rem;
+	color: rgb(112, 112, 112);
+}
+
+
 footer {
 	background-color: #39B54A;
 	color: #d5d5d5;
@@ -101,6 +119,31 @@ hr.light {
 .light-100 {
 	border-top: 1px solid #d5d5d5;
 	width: 100%;
+}
+
+.btn-warning {
+	color: white;
+}
+
+.intro-desc>.mark{
+	font-weight: 700;
+	font-size: 5rem;
+	float: left;
+	line-height: 1;
+	margin-right: 20px;
+	color: #03004D;
+	margin-top: -5px;
+}
+
+blockquote, q {
+    quotes: none;
+    position: relative;
+    vertical-align: middle;
+    height: auto;
+    padding: 10px 0 0 80px;
+    margin: 0;
+    border-left: none;
+    margin-bottom: 1rem;
 }
 
 /*Media Query*/
